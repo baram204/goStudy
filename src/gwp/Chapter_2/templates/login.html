@@ -1,0 +1,17 @@
+{{ define "내용" }}
+
+<form class="form-signin center" role="form" action="/authenticate" method="post">
+    <h2 class="form-signin-heading">
+        <i class="fa fa-comments-o">
+            칫쳇
+        </i>
+    </h2>
+    <input type="email" name="email" class="form-control" placeholder="이메일 주소" required autofocus>
+    <input type="password" name="password" class="form-control" placeholder="암호" required>
+    <br/>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">가입하기</button>
+    <br/>
+    <a class="lead pull-right" href="/signup">가입하기</a>
+</form>
+
+{{ end }}
