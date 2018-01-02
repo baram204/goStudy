@@ -4,8 +4,11 @@ import (
 	"fmt"
 	"html/template"
 	"log"
+	"net/http"
 	"os"
 )
+
+var logger *log.Logger
 
 // HTML 템플릿 파일 해석
 // 파일 이름의 목록을 통과시켜 템플릿을 얻는다.
@@ -22,10 +25,26 @@ func 템플릿파일들해석(파일이름 ...string) (템 *template.Template) {
 	return
 }
 
+// 넘겨준 자료와 파일 이름 그리고 자료를 가지고 템플릿을 생성한다.
+func HTML생성(작성자 http.ResponseWriter, 자료 interface{}, 파일이름들 ...string) {
+	var 파일들 []string
+	for _, 파일 := range 파일이름들 {
+		파일들 = append(파일들, fmt.Sprintf(작업디렉토리()+"/templates/%s.html", 파일))
+	}
+
+	템플릿들 := template.Must(template.ParseFiles(파일들...))
+	템플릿들.ExecuteTemplate(작성자, "레이아웃", 자료)
+}
+
 func 작업디렉토리() (dir string) {
 	dir, err := os.Getwd()
 	if err != nil {
 		log.Fatal(err)
 	}
 	return
+}
+
+func danger(args ...interface{}) {
+	logger.SetPrefix("ERROR ")
+	logger.Println(args...)
 }

@@ -26,8 +26,8 @@ func main() {
 	//멀플.HandleFunc("/err", 오류)
 
 	멀플.HandleFunc("/login", 로그인)
-	//멀플.HandleFunc("/signup", 가입)
-	//멀플.HandleFunc("/signup_account", 계정가입)
+	멀플.HandleFunc("/signup", 가입)
+	멀플.HandleFunc("/signup_account", 계정가입)
 	//멀플.HandleFunc("/authenticate", 인증)
 	//
 	//멀플.HandleFunc("/new", 새쓰레드)
