@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d84ed871-a895-46c3-9529-b69a5ec0bb30" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/gwp/Chapter_2/data.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/gwp/Chapter_2/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/gwp/Chapter_2/route_auth.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/gwp/Chapter_2/route_main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/gwp/Chapter_2/templates/login.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/gwp/Chapter_2/templates/login.layout.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/gwp/Chapter_2/templates/public.navbar.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/gwp/Chapter_2/utils.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/gwp/Chapter_2/src/data/data.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/gwp/Chapter_2/src/data/setup.sql" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/goStudy.iml" afterPath="$PROJECT_DIR$/goStudy.iml" />
+      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/Chapter_2.exe" afterPath="$PROJECT_DIR$/src/gwp/Chapter_2/src/Chapter_2.exe" />
+      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/main.go" afterPath="$PROJECT_DIR$/src/gwp/Chapter_2/main.go" />
+      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/pkg/windows_amd64/data.a" afterPath="$PROJECT_DIR$/src/gwp/Chapter_2/pkg/windows_amd64/data.a" />
+      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/route_auth.go" afterPath="$PROJECT_DIR$/src/gwp/Chapter_2/route_auth.go" />
+      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/src/data/data.go" afterPath="$PROJECT_DIR$/src/gwp/Chapter_2/src/data/data.go" />
+      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/src/data/user.go" afterPath="$PROJECT_DIR$/src/gwp/Chapter_2/src/data/user.go" />
+      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/templates/login.html" afterPath="$PROJECT_DIR$/src/gwp/Chapter_2/templates/login.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,15 +23,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="goStudy" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gwp/Chapter_2/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="868">
-              <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+            <state relative-caret-position="448">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
-                <element signature="e#14#55#0" expanded="true" />
+                <element signature="e#14#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gwp/Chapter_2/src/data/data.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+              <folding>
+                <element signature="e#14#303#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,10 +56,8 @@
         <entry file="file://$PROJECT_DIR$/src/gwp/Chapter_2/route_auth.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="392">
-              <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-              <folding>
-                <element signature="e#14#36#0" expanded="true" />
-              </folding>
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,30 +105,8 @@
       <file leaf-file-name="utils.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gwp/Chapter_2/utils.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-              <folding>
-                <element signature="e#14#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gwp/Chapter_2/data.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="route_main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gwp/Chapter_2/route_main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="0">
+              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -148,6 +143,7 @@
     <option name="urls">
       <list>
         <option value="file://$PROJECT_DIR$" />
+        <option value="file://$PROJECT_DIR$/src/gwp/Chapter_2/src/data" />
       </list>
     </option>
   </component>
@@ -179,12 +175,13 @@
         <option value="$PROJECT_DIR$/src/intro/13-core-package/server/http/httpServer.go" />
         <option value="$PROJECT_DIR$/src/gwp/Chapter_2/route_main.go" />
         <option value="$PROJECT_DIR$/src/gwp/Chapter_2/data.go" />
-        <option value="$PROJECT_DIR$/src/gwp/Chapter_2/utils.go" />
         <option value="$PROJECT_DIR$/src/gwp/Chapter_2/templates/ㅣㅐ햐ㅜ.html" />
         <option value="$PROJECT_DIR$/src/gwp/Chapter_2/templates/login.layout.html" />
         <option value="$PROJECT_DIR$/src/gwp/Chapter_2/templates/login.html" />
         <option value="$PROJECT_DIR$/src/gwp/Chapter_2/templates/public.navbar.html" />
+        <option value="$PROJECT_DIR$/src/gwp/Chapter_2/src/main.go" />
         <option value="$PROJECT_DIR$/src/gwp/Chapter_2/route_auth.go" />
+        <option value="$PROJECT_DIR$/src/gwp/Chapter_2/utils.go" />
         <option value="$PROJECT_DIR$/src/gwp/Chapter_2/main.go" />
       </list>
     </option>
@@ -195,8 +192,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-10" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="y" value="5" />
     <option name="width" value="1940" />
     <option name="height" value="2110" />
   </component>
@@ -255,6 +253,41 @@
             <path>
               <item name="goStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="goStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="windows_amd64" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="windows_amd64" type="462c0819:PsiDirectoryNode" />
+              <item name="gwp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="windows_amd64" type="462c0819:PsiDirectoryNode" />
+              <item name="gwp" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="windows_amd64" type="462c0819:PsiDirectoryNode" />
+              <item name="gwp" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter_2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goStudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -276,7 +309,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gwp" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter_2" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -292,27 +325,29 @@
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/gwp/Chapter_2/src" />
     <property name="GO_FMT" value="false" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\baram204\IdeaProjects\goStudy\src\intro\13-core-package\hashAndcript\cript" />
-      <recent name="C:\Users\baram204\IdeaProjects\goStudy\src\intro\13-core-package\fileAndFolder" />
-      <recent name="C:\Users\baram204\IdeaProjects\goStudy" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\baram204\IdeaProjects\goStudy" />
       <recent name="C:\Users\baram204\IdeaProjects\goStudy\src\intro\13-core-package\hashAndcript\non-cript" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\baram204\IdeaProjects\goStudy\src\gwp\Chapter_2" />
+      <recent name="C:\Users\baram204\IdeaProjects\goStudy\src\gwp\Chapter_2\src" />
+      <recent name="C:\Users\baram204\IdeaProjects\goStudy\src\intro\13-core-package\hashAndcript\cript" />
+      <recent name="C:\Users\baram204\IdeaProjects\goStudy\src\intro\13-core-package\fileAndFolder" />
+      <recent name="C:\Users\baram204\IdeaProjects\goStudy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -327,7 +362,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Go Build.챕터2 칫챗빌드">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -349,12 +384,37 @@
       <module name="" />
       <envs />
     </configuration>
+    <configuration name="챕터2 칫챗빌드" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="data" />
+      <working_directory value="C:\Users\baram204\IdeaProjects\goStudy\src\gwp\Chapter_2" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="C:\Users\baram204\IdeaProjects\goStudy\src\gwp\Chapter_2\src\main.go" />
+      <package value="gwp/Chapter_2" />
+      <directory value="C:\Users\baram204\IdeaProjects\goStudy\src\gwp\Chapter_2" />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="goStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <directory value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="go build crypt.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="goStudy" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/src/intro/13-core-package/hashAndcript/cript/crypt.go" />
+      <directory value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="go build data.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="data" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/gwp/Chapter_2/src/data/data.go" />
       <directory value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="go build httpServer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
@@ -365,22 +425,6 @@
       <filePath value="$PROJECT_DIR$/src/intro/13-core-package/server/http/httpServer.go" />
       <directory value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="goStudy" />
-      <working_directory value="$PROJECT_DIR$/src/gwp/Chapter_2/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/gwp/Chapter_2/main.go" />
-      <directory value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="go build non-cript.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="goStudy" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/intro/13-core-package/hashAndcript/non-cript/non-cript.go" />
-      <directory value="$PROJECT_DIR$" />
-    </configuration>
     <configuration name="go build server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="goStudy" />
       <working_directory value="$PROJECT_DIR$" />
@@ -388,6 +432,13 @@
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/src/intro/13-core-package/server/server.go" />
       <directory value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="goStudy" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -449,35 +500,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$" />
-      <directory value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="DIRECTORY" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Build.go build non-cript.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Build.go build crypt.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Build.go build server.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Build.go build httpServer.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Build.go build main.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Build.go build crypt.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Build.go build server.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Build.go build httpServer.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Build.챕터2 칫챗빌드" />
+      <item index="4" class="java.lang.String" itemvalue="Go Build.go build data.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build main.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build httpServer.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build server.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build crypt.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Build.go build non-cript.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Build.챕터2 칫챗빌드" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build data.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build httpServer.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build server.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Build.go build crypt.go" />
       </list>
     </recent_temporary>
   </component>
@@ -506,7 +542,7 @@
       <workItem from="1514222681111" duration="12872000" />
       <workItem from="1514383337078" duration="20797000" />
       <workItem from="1514566432201" duration="931000" />
-      <workItem from="1514810454190" duration="5407000" />
+      <workItem from="1514810454190" duration="7803000" />
     </task>
     <task id="LOCAL-00001" summary="add intellij Idea">
       <created>1514222879462</created>
@@ -533,32 +569,41 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40007000" />
+    <option name="totallyTimeSpent" value="42403000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="0" width="1940" height="2110" extended-state="1" />
-    <editor active="true" />
+    <frame x="-4" y="5" width="1940" height="2110" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.4978355" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1380753" sideWeight="0.5151515" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289749" sideWeight="0.5254329" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289749" sideWeight="0.4767316" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1380753" sideWeight="0.4848485" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.4930594" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289749" sideWeight="0.4745671" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41579497" sideWeight="0.47402596" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.48647186" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22510822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22510822" sideWeight="0.49687988" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.495671" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49687988" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5031201" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39958158" sideWeight="0.4935065" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -566,7 +611,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.49764428" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.495671" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -940,16 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gwp/Chapter_2/utils.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="e#14#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Go/src/html/template/template.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-23">
@@ -990,22 +1024,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/gwp/Chapter_2/utils.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/gwp/Chapter_2/route_auth.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
-          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gwp/Chapter_2/src/data/data.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding>
-            <element signature="e#14#36#0" expanded="true" />
+            <element signature="e#14#303#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gwp/Chapter_2/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="868">
-          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        <state relative-caret-position="448">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#14#55#0" expanded="true" />
+            <element signature="e#14#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1061,7 +1111,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>goStudy</last-edited>
+          <last-edited>data</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

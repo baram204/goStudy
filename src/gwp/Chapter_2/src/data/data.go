@@ -21,7 +21,7 @@ func init() {
 
 	fmt.Println("DB init()")
 	var err error
-	db, err := sql.Open("postgres", "user=postgres dbname=postgres password=postgres sslmode=disable")
+	db, err := sql.Open("postgres", "user=postgres dbname=chitchat password=postgres sslmode=disable")
 
 	if err != nil {
 		log.Fatal(err)
@@ -57,7 +57,7 @@ func UUID생성() (uuid string) {
 }
 
 // hash plaintext with SHA-1
-func 암호화(plaintext string) (cryptext string) {
+func Crypt(plaintext string) (cryptext string) {
 	cryptext = fmt.Sprintf("%x", sha1.Sum([]byte(plaintext)))
 	return
 }
