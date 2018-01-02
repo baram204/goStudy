@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"gwp/Chapter_2/src/data"
+	"gwp/Chapter_2/data"
 	"net/http"
 )
 

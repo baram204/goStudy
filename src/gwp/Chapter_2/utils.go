@@ -6,9 +6,24 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"strings"
+	"gwp/Chapter_2/data"
+	"errors"
 )
 
 var logger *log.Logger
+
+func 세션(작성자 http.ResponseWriter, 요청 *http.Request) (ㅅㅅ data.Session, 오류 error) {
+	 쿠키, 오류 := 요청.Cookie("_cookie")
+	 if 오류 == nil {
+	 	ㅅㅅ = data.Session{Uuid: 쿠키.Value}
+	 	if 옼, _ := ㅅㅅ.Check(); !옼 {
+	 		오류 = errors.New("유효하지 않은 세션")
+		}
+	 }
+	return
+
+}
 
 // HTML 템플릿 파일 해석
 // 파일 이름의 목록을 통과시켜 템플릿을 얻는다.
@@ -47,4 +62,10 @@ func 작업디렉토리() (dir string) {
 func danger(args ...interface{}) {
 	logger.SetPrefix("ERROR ")
 	logger.Println(args...)
+}
+
+// Convenience function to redirect to the error message page
+func error_message(writer http.ResponseWriter, request *http.Request, msg string) {
+	url := []string{"/err?msg=", msg}
+	http.Redirect(writer, request, strings.Join(url, ""), 302)
 }

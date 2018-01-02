@@ -1,0 +1,20 @@
+{{ define "내용" }}
+<p class="lead">
+    <a href="/thread/new">쓰레드 시작</a> 하거나 아래 중 하나에 가입하세요!
+</p>
+
+{{ range . }}
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <span class="lead"> <i class="fa fa-comment-o"></i> {{ .Topic }}</span>
+    </div>
+    <div class="panel-body">
+        Started by {{ .User.Name }} - {{ .CreatedAtDate }} - {{ .NumReplies }} posts.
+        <div class="pull-right">
+            <a href="/thread/read?id={{.Uuid }}">더 읽기</a>
+        </div>
+    </div>
+</div>
+{{ end }}
+
+{{ end }}

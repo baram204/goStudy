@@ -22,7 +22,7 @@ func main() {
 	멀플.Handle("/static/", http.StripPrefix("/static/", 파일들))
 
 	// 멀티 플레서에 요청에 따른 응답을 서브하는 핸들러를 등록한다.
-	//멀플.HandleFunc("/", 인덱스)
+	멀플.HandleFunc("/", 인덱스)
 	//멀플.HandleFunc("/err", 오류)
 
 	멀플.HandleFunc("/login", 로그인)
