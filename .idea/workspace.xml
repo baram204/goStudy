@@ -1,281 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d84ed871-a895-46c3-9529-b69a5ec0bb30" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitmodules" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/install_kernel" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmd/lgo-internal/kernel.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmd/lgo-internal/liner/liner-demo/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmd/lgo-internal/liner/liner.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmd/lgo-internal/liner/liner_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmd/lgo-internal/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmd/lgo-internal/utf8_reader.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmd/lgo-internal/utf8_reader_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmd/lgo/install/dep.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmd/lgo/install/dep_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmd/lgo/install/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmd/lgo/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmd/runner/cleanup.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmd/runner/initmodule.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmd/runner/runner.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmd/runner/sessid.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cmd/runner/sessid_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/autoexit.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/complete.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/complete_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/converter.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/converter_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/errors_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/inspect_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/namepicker.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/namepicker_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/rewriteexpr.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/autoexit.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/autoexit_recvop.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/autoexit_varonly.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/bug11_multi.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/bug11_single.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/comments.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/comments_firstline.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/comments_firstline__withcore.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/comments_firstline_slashasterisk.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/comments_firstline_trailing.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/comments_lastline.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/labeled_branch.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/last_expr0.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/last_expr1.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/last_expr2.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/last_expr3.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/lgoctx_builtin.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/novar.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/passimport0.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/passimport1.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/register_vars.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/register_vars_var_only.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/rename.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/rename_other_pkgs.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/simple.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/twolgo.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/twolgo2.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/twolgo3.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/underscore_in_define.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/var_uderscore_only.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/withold.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/withold_pkgdup.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/converter/testdata/wrap_gostmt.golden" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/core.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/core/core_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/doc/complete.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/doc/inspect.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/image/Dockerfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/jupyter/Dockerfile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/docker/jupyter/docker-compose.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/basics.ipynb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/bugs.ipynb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/game_of_life.ipynb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/gonum.ipynb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/interrupt.ipynb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/make_many_cells.ipynb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/examples/many_cells.ipynb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jupyter/gojupyterscaffold-example/install_kernel" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jupyter/gojupyterscaffold-example/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jupyter/gojupyterscaffold/api.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jupyter/gojupyterscaffold/execute.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jupyter/gojupyterscaffold/gojupyterscaffold.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jupyter/gojupyterscaffold/gojupyterscaffold_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jupyter/gojupyterscaffold/message.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jupyter/gojupyterscaffold/shelsocket.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/parser/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/parser/custom.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/parser/custom_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/parser/error_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/parser/example_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/parser/go1.7_helper.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/parser/go1.9_helper.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/parser/go1.9_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/parser/interface.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/parser/parser.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/parser/parser_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/parser/performance_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/parser/short_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/parser/spec_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/parser/testdata/commas.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/parser/testdata/issue3106.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/study/gwp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/study/intro" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/importer/importer.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gccgoimporter/gccgoinstallation.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gccgoimporter/gccgoinstallation_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gccgoimporter/importer.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gccgoimporter/importer_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gccgoimporter/parser.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gccgoimporter/parser_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gccgoimporter/testdata/alias.gox" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gccgoimporter/testdata/complexnums.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gccgoimporter/testdata/complexnums.gox" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gccgoimporter/testdata/conversions.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gccgoimporter/testdata/conversions.gox" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gccgoimporter/testdata/imports.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gccgoimporter/testdata/imports.gox" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gccgoimporter/testdata/pointer.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gccgoimporter/testdata/pointer.gox" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gccgoimporter/testdata/time.gox" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gccgoimporter/testdata/unicode.gox" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gcimporter/bimport.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gcimporter/exportdata.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gcimporter/gcimporter.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gcimporter/gcimporter_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gcimporter/testdata/a.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gcimporter/testdata/b.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gcimporter/testdata/exports.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gcimporter/testdata/issue15920.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gcimporter/testdata/issue20046.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gcimporter/testdata/p.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gcimporter/testdata/versions/test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gcimporter/testdata/versions/test_go1.7_0.a" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gcimporter/testdata/versions/test_go1.7_1.a" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gcimporter/testdata/versions/test_go1.8_4.a" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/gcimporter/testdata/versions/test_go1.8_5.a" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/srcimporter/srcimporter.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/internal/srcimporter/srcimporter_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/api.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/api_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/assignments.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/builtins.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/builtins_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/call.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/check.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/check_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/conversions.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/decl.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/errors.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/eval.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/eval_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/example_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/expr.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/exprstring.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/exprstring_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/go1.7_helper.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/go1.9_helper.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/gotype.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/hilbert_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/initorder.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/issues_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/labels.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/lookup.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/methodset.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/object.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/object_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/objset.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/operand.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/ordering.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/package.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/predicates.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/resolver.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/resolver_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/return.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/scope.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/selection.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/self_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/sizes.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/sizes_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/stdlib_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/stmt.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/blank.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/builtins.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/const0.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/const1.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/constdecl.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/conversions.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/conversions2.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/cycles.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/cycles1.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/cycles2.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/cycles3.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/cycles4.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/decls0.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/decls1.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/decls2a.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/decls2b.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/decls3.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/decls4.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/errors.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/expr0.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/expr1.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/expr2.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/expr3.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/gotos.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/importC.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/importdecl0a.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/importdecl0b.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/importdecl1a.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/importdecl1b.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/init0.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/init1.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/init2.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/issues.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/labels.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/methodsets.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/shifts.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/stmt0.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/stmt1.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/testdata/vardecl.src" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/token_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/type.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/typestring.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/typestring_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/typexpr.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/go/types/universe.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/internal/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/internal/testenv/testenv.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/internal/testenv/testenv_cgo.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/internal/testenv/testenv_notwin.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/internal/testenv/testenv_windows.go" />
+    <list default="true" id="d84ed871-a895-46c3-9529-b69a5ec0bb30" name="Default" comment="lgo 설치 및 서브모듈 설정">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/goStudy.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/goStudy.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/data/data.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/data/data.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/data/setup.sql" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/data/thread.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/data/user.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/pkg/windows_amd64/data.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/public/css/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/public/css/font-awesome.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/public/css/login.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/public/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/public/js/jquery-2.1.1.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/route_auth.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/route_main.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/templates/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/templates/layout.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/templates/login.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/templates/login.layout.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/templates/public.navbar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/templates/signup.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_2/utils.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_3/HandlerAndHandle/HandleHandler_HandleFunc_HandlerFunc.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/gwp/Chapter_3/HandlerChanning/ChaningHandlers.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/intro/13-core-package/containerAndSort/list/list.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/intro/13-core-package/containerAndSort/sort/sort.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/intro/13-core-package/error/error.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/intro/13-core-package/fileAndFolder/createdText.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/intro/13-core-package/fileAndFolder/findAndFolder.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/intro/13-core-package/fileAndFolder/text.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/intro/13-core-package/hashAndcript/cript/crypt.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/intro/13-core-package/hashAndcript/non-cript/non-cript.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/intro/13-core-package/hashAndcript/non-cript/text1.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/intro/13-core-package/hashAndcript/non-cript/text2.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/intro/13-core-package/io/io.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/intro/13-core-package/server/http/httpServer.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/intro/13-core-package/server/tcpServer.go" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/intro/13-core-package/strings/strings.go" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -315,6 +47,7 @@
   </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -437,9 +170,14 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="goStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goStudy" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="goStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -448,13 +186,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="go" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -468,6 +205,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -731,17 +469,17 @@
   <component name="ToolWindowManager">
     <frame x="119" y="116" width="1940" height="1177" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23829788" sideWeight="0.49687988" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24095745" sideWeight="0.49687988" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.4978355" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.49787235" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3275862" sideWeight="0.5382979" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.49574468" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3275862" sideWeight="0.54042554" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3275862" sideWeight="0.45957446" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41379312" sideWeight="0.45265958" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3275862" sideWeight="0.46170214" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49687988" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.47180852" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39958158" sideWeight="0.4891775" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272727" sideWeight="0.4675532" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5031201" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39958158" sideWeight="0.4891775" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -800,7 +538,8 @@
     <MESSAGE value="4일차 파일부터 서버까지" />
     <MESSAGE value="로그인 인증 구현" />
     <MESSAGE value="인덱스 페이지와 세션과 쿠키 체크를 통과하면 쓰레드를 가져오는 쓰레드&#10;가져오기 기능 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="인덱스 페이지와 세션과 쿠키 체크를 통과하면 쓰레드를 가져오는 쓰레드&#10;가져오기 기능 구현" />
+    <MESSAGE value="lgo 설치 및 서브모듈 설정" />
+    <option name="LAST_COMMIT_MESSAGE" value="lgo 설치 및 서브모듈 설정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
