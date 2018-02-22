@@ -1,0 +1,8 @@
+[submodule "study/gwp"]
+	path = study/gwp
+	url = git@github.com:baram204/goStudy.git
+	branch = gwp
+[submodule "study/intro"]
+	path = study/intro
+	url = git@github.com:baram204/goStudy.git
+	branch = intro
