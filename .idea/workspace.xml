@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d84ed871-a895-46c3-9529-b69a5ec0bb30" name="Default" comment="lgo 설치 및 서브모듈 설정">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/goStudy.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="d84ed871-a895-46c3-9529-b69a5ec0bb30" name="Default" comment="쥬피터 노트북 기본 경로 변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,11 +12,71 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockerExecCommand">
+    <ExecCommand>
+      <option name="command" value="bash" />
+      <option name="imageId" value="jupyter_jupyter" />
+    </ExecCommand>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="goStudy" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker/jupyter/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitmodules" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitmodules">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="114">
+                <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../lgo/docker/jupyter/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -109,6 +164,12 @@
         <option value="$PROJECT_DIR$/src/gwp/Chapter_3/HandlerAndHandle/HandleHandler_HandleFunc_HandlerFunc.go" />
         <option value="$PROJECT_DIR$/src/gwp/Chapter_3/HandlerChanning/ChaningHandlers.go" />
         <option value="$PROJECT_DIR$/src/intro/13-core-package/error/error.go" />
+        <option value="$PROJECT_DIR$/docker/jupyter/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker/jupyter/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/.gitmodules" />
+        <option value="$PROJECT_DIR$/study/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -180,6 +241,48 @@
             </path>
             <path>
               <item name="goStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+              <item name="jupyter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="gwp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="gwp" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="intro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="intro" type="462c0819:PsiDirectoryNode" />
+              <item name="13-core-package" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="goStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -208,16 +311,17 @@
     <property name="go.vendoring.notification.had.been.shown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\baram204\IdeaProjects\goStudy" />
-      <recent name="C:\Users\baram204\IdeaProjects\goStudy\src\intro\13-core-package\hashAndcript\non-cript" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\baram204\dev\goStudy\study\intro" />
+      <recent name="C:\Users\baram204\dev\goStudy\study\gwp" />
+      <recent name="C:\Users\baram204\dev\goStudy\study" />
       <recent name="C:\Users\baram204\dev\goStudy" />
       <recent name="C:\Users\baram204\IdeaProjects\goStudy\src\gwp\Chapter_3\HandlerChanning" />
-      <recent name="C:\Users\baram204\IdeaProjects\goStudy\src\gwp\Chapter_3\HandlerAndHandle" />
-      <recent name="C:\Users\baram204\IdeaProjects\goStudy\src\gwp\Chapter_3" />
-      <recent name="C:\Users\baram204\IdeaProjects\goStudy\src\gwp\Chapter_2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\baram204\dev\goStudy\study" />
+      <recent name="C:\Users\baram204\IdeaProjects\goStudy" />
+      <recent name="C:\Users\baram204\IdeaProjects\goStudy\src\intro\13-core-package\hashAndcript\non-cript" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -232,7 +336,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build error.go">
+  <component name="RunManager" selected="Docker.jupyter/docker-compose.yml: Compose Deployment">
     <configuration name="챕터2 칫챗빌드" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="data" />
       <working_directory value="C:\Users\baram204\IdeaProjects\goStudy\src\gwp\Chapter_2" />
@@ -370,12 +474,23 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="5">
+    <configuration name="jupyter/docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker/jupyter/docker-compose.yml" />
+          <option name="startBrowserSettings">
+            <browser url="http://127.0.0.1" />
+          </option>
+        </settings>
+      </deployment>
+    </configuration>
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Go Build.챕터2 칫챗빌드" />
       <item index="1" class="java.lang.String" itemvalue="Go Build.go build route_main.go" />
       <item index="2" class="java.lang.String" itemvalue="Go Build.go build HandlerFunc.go" />
       <item index="3" class="java.lang.String" itemvalue="Go Build.go build ChaningHandlers.go" />
       <item index="4" class="java.lang.String" itemvalue="Go Build.go build error.go" />
+      <item index="5" class="java.lang.String" itemvalue="Docker.jupyter/docker-compose.yml: Compose Deployment" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -471,10 +586,10 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24095745" sideWeight="0.49687988" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.4978355" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.49574468" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3275862" sideWeight="0.54042554" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.49361703" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3275862" sideWeight="0.5425532" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3275862" sideWeight="0.45957446" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3275862" sideWeight="0.4574468" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41379312" sideWeight="0.45265958" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49687988" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272727" sideWeight="0.4675532" order="9" side_tool="false" content_ui="tabs" />
@@ -539,7 +654,12 @@
     <MESSAGE value="로그인 인증 구현" />
     <MESSAGE value="인덱스 페이지와 세션과 쿠키 체크를 통과하면 쓰레드를 가져오는 쓰레드&#10;가져오기 기능 구현" />
     <MESSAGE value="lgo 설치 및 서브모듈 설정" />
-    <option name="LAST_COMMIT_MESSAGE" value="lgo 설치 및 서브모듈 설정" />
+    <MESSAGE value="goland 설정" />
+    <MESSAGE value="바인더 경로 안내 추가" />
+    <MESSAGE value="쥬피터 노트북 기본 경로 변경" />
+    <MESSAGE value="바인더 안내 위치 변경" />
+    <MESSAGE value="서브모듈 위치 무시하게 설정" />
+    <option name="LAST_COMMIT_MESSAGE" value="서브모듈 위치 무시하게 설정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -548,13 +668,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/intro/13-core-package/hashAndcript/non-cript/non-cript.go" />
-    <entry file="file://$PROJECT_DIR$/src/intro/13-core-package/hashAndcript/non-cript/text1.txt" />
-    <entry file="file://$PROJECT_DIR$/src/intro/13-core-package/hashAndcript/non-cript/text2.txt" />
-    <entry file="file://$PROJECT_DIR$/src/intro/13-core-package/server/http/httpServer.go" />
-    <entry file="file://$PROJECT_DIR$/src/intro/13-core-package/fileAndFolder/findAndFolder.go" />
-    <entry file="file://$PROJECT_DIR$/src/intro/13-core-package/error/error.go" />
-    <entry file="file://$PROJECT_DIR$/src/intro/13-core-package/hashAndcript/cript/crypt.go" />
     <entry file="file://$PROJECT_DIR$/src/intro/13-core-package/containerAndSort/sort/sort.go" />
     <entry file="file://$PROJECT_DIR$/src/intro/13-core-package/server/tcpServer.go" />
     <entry file="file://$PROJECT_DIR$/src/intro/13-core-package/hashAndcript/non-cript/non-cript.go" />
@@ -629,6 +742,68 @@
     <entry file="file://$PROJECT_DIR$/gwp/Chapter_3/HandlerAndHandle/HandleHandler_HandleFunc_HandlerFunc.go" />
     <entry file="file://$PROJECT_DIR$/gwp/Chapter_3/HandlerChanning/ChaningHandlers.go" />
     <entry file="file://$PROJECT_DIR$/src/intro/13-core-package/error/error.go" />
+    <entry file="file://$PROJECT_DIR$/docker/jupyter/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lgo/docker/jupyter/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/jupyter/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitmodules">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="114">
+            <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
