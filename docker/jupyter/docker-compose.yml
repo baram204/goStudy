@@ -7,7 +7,14 @@ services:
       context: .
     ports:
       - "8888:8888"
+
+    # dockertoolbox only mount c:/Users
+    # so many hours wasted Jesus.
+    # https://github.com/docker/kitematic/issues/2738
     volumes:
-      - type: "bind"
-        source: ./../../examples
-        target: /examples
+        - C:\Users\baram204\dev\goStudy\study:/study
+
+#    volumes:
+#      - type: "bind"
+#        source: ./../../examples
+#        target: /examples
