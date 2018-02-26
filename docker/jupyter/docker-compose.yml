@@ -13,6 +13,7 @@ services:
     # https://github.com/docker/kitematic/issues/2738
     volumes:
         - C:\Users\baram204\dev\goStudy\study:/study
+        - C:\Users\baram204\dev\goStudy\config:/home/gopher/.jupyter
 
 #    volumes:
 #      - type: "bind"
